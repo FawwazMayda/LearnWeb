@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var msg_1 = require("./msg");
+require("./style.css");
+console.log(msg_1.title);
+var h1Elem = document.createElement("h1");
+var imgElem = document.createElement("img");
+h1Elem.innerText = msg_1.title;
+imgElem.src = "https://i.pinimg.com/originals/f1/b7/7a/f1b77afa7a136a0bd8c48d23bd88212b.png";
+document.body.appendChild(imgElem);
+document.body.appendChild(h1Elem);

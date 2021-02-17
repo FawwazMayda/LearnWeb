@@ -1,0 +1,1 @@
+export const name = "Attack on CountryBall"

@@ -1,0 +1,45 @@
+.box-200 {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    margin: 20px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.horizontal-flex {
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-flex > div {
+    background-color: yellow;
+    margin: 20px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.blue-box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
+
+.red-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+.green-box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    margin: 10px;
+}

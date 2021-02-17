@@ -1,0 +1,5 @@
+console.log(document.querySelector("h1")?.innerText)
+document.querySelector("input")?.click()
+let lastList = document.querySelectorAll("h2")
+console.log(`Found ${lastList?.length} with class "List"`)
+console.log(lastList)

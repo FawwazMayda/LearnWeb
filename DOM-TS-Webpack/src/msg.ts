@@ -1,0 +1,1 @@
+export const title = "CountryBall: Attack on CountryBox"
