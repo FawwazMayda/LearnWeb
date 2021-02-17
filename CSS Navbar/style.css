@@ -2,4 +2,37 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.vertical-nav {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.vertical-nav:hover {
+    background-color: azure;
+    color: white;
+}
+
+.horizontal-nav {
+    display: inline;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: white;
+    background-color: #111;
+    float: left;
+}
+
+.horizontal-nav:hover {
+    background-color: azure;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
 }
